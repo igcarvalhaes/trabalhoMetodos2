@@ -27,7 +27,7 @@ def advection_diffusion_solution(x, t, D):
 D_values = [1e-5, 1e-3, 1e-1]
 
 # Seleção de tempos para análise detalhada
-t_samples = [0, 0.5, 1, 1.5, 2, 2.5, 3, 3.5, 4, 4.5, 5]
+t_samples = [0,  1,  2,  3,  4,  5]
 
 # Seleção de valores de x mais relevantes para a tabela, próximos à região de interesse
 # Aqui, escolhi pontos onde a frente de onda se desloca mais
